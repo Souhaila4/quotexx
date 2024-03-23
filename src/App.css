@@ -1,5 +1,19 @@
 .App {
   text-align: center;
+  height: 100vh;
+  display: flex;
+}
+
+.tradingview-widget-container iframe:nth-of-type(2) {
+  display: none !important;
+}
+
+.tradingview-widget-container iframe {
+  height: 100% !important;
+}
+
+.tradingview-widget-copyright {
+  display: none !important;
 }
 
 .App-logo {
@@ -32,6 +46,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }

@@ -1,0 +1,45 @@
+.sidebar {
+    width: 250px;
+    padding: 20px;
+    background-color: #000;
+    flex-direction: column;
+    display: flex;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: red; 
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 8px; 
+  }
+  
+  #bt1, #bt2 { /* Utilisez les sélecteurs d'identifiant (#) pour cibler les boutons */
+    width: 100%;
+    padding: 15px; 
+    background-color: green; /* Les boutons "En haut" auront une couleur verte */
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px; 
+    margin-bottom: 10px;
+  }
+  
+  #bt2 { /* Styles spécifiques pour le bouton "En bas" */
+    background-color: red; /* Le bouton "En bas" aura une couleur rouge */
+  }
+  
+  #bt1:hover, #bt2:hover { /* Utilisez les sélecteurs d'identifiant (#) pour cibler les boutons au survol */
+    background-color: blanchedalmond; /* Les boutons auront une couleur bleue au survol */
+  }
+  
